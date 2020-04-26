@@ -2,4 +2,4 @@
 
 ## Production Ready
  
-### https://aditasksapi.herokuapp.com/
+### http://aditasksapi.herokuapp.com/

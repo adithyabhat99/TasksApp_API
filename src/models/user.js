@@ -2,8 +2,7 @@ const mongoose = require("mongoose");
 const Validator = require("validator");
 const brcypt = require("bcryptjs");
 const jwt = require("jsonwebtoken");
-const secret =
-  process.env.AUTH_SECRET || require("../secrets/secret.json").secret;
+const secret = process.env.AUTH_SECRET;
 const Task = require("../models/task");
 
 const userSchema = new mongoose.Schema(

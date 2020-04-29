@@ -1,7 +1,6 @@
 const jwt = require("jsonwebtoken");
 const User = require("../models/user");
-const secret =
-  process.env.AUTH_SECRET || require("../secrets/secret.json").secret;
+const secret = process.env.AUTH_SECRET;
 
 // Authentication middleware
 const auth = async (req, res, next) => {
